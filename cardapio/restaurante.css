@@ -1,0 +1,24 @@
+
+/* Global*/
+* {
+margin:0;
+padding: 0;}
+
+body{
+background-image: url(https://img.freepik.com/fotos-gratis/tabuas-de-madeira-com-fundo-de-restaurante-desfocado_1253-56.jpg);
+background-repeat: no-repeat center center fixed;
+background-size:cover;
+height: 100%;
+
+
+}
+header {
+    padding: 32px 0;
+    /*max-width: 300px;
+    border: 2px solid burlywood;
+    margin: 5px auto;*/
+    text-align: center;
+}
+h1{
+    margin-bottom: 0px;
+}

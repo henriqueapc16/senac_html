@@ -1,0 +1,133 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+/*
+body{
+ 
+ background-image: url(./bg-mobile.jpg);
+ background: no-repeat;
+ background-position: center;
+ background-position-y: top;
+ background-size: cover;
+
+
+}*/
+
+body {
+  background-color: #000; /* fundo base preto */
+  background-image:
+    radial-gradient(at 30% 20%, rgba(140, 0, 255, 0.3), transparent 60%),
+    radial-gradient(at 70% 40%, rgba(255, 0, 200, 0.25), transparent 60%),
+    radial-gradient(at 40% 80%, rgba(7, 16, 63, 0.2), transparent 70%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+.container{
+  width: 350px; ;
+  height: 500px; ;
+  margin: 10% auto;
+  border: 1px solid;
+  border-radius: 10%;
+  padding:0px 24px;
+  text-align: center;
+  color: aliceblue;
+}
+h1{
+  margin: 20px;
+  
+}
+.input_email{
+  padding: 50px;
+  font-size: 16px;
+  
+
+}
+/*estilizando o input email*/
+.email input{
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.email{
+  position:relative;
+  color: #3b1442;
+}
+.email span{
+  position:absolute;
+  left:10px;
+  top: 10px;
+  pointer-events: none;
+  transition: all ease-out 0.2s;
+}
+.email input:focus + span,
+.email input:valid + span{
+  top: -10px;
+  left: 5px;
+  font-size: 12px;
+  color: #5822d6;
+}
+
+
+/* estilizando o input senha*/
+.input_senha{
+  padding:1px 50px  ;
+  font-size: 16px;
+  
+}
+.password input{
+  padding:15px;
+  border-radius: 10px;
+}
+/* colocando texto dentro do input*/
+ .password{
+position: relative;
+color: #3b1442;
+ }
+  
+
+.password span{
+  
+  position: absolute;
+  left: 10px;
+  top:0px;
+  pointer-events: none;
+  transition: all ease-out 0.2s;
+
+}
+.password input:focus + span,
+.password input:valid + span {
+  top: -10px;
+  left: 5px;
+  font-size: 12px;
+  color: #5822d6;
+}
+
+button:hover{ 
+  background: linear-gradient(135deg, rgb(163, 170, 230) , rgb(38, 24, 224));
+
+}
+button{
+  background: linear-gradient(130deg, rgb(40, 192, 238), rgb(184, 57, 243));
+  padding: 10px 10px;
+  border-radius: 20%;
+
+}
+.button{
+  padding: 10%;
+}
+.enviar{
+  color: #3b1442;
+  font-size: 16px;
+}
+.audio{
+  display: block;
+  width: 300px;
+  margin: 0px auto;
+}
