@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
    }
-
+*{ @media(max-width:768px){
+    
+}
 /*
 body{
  
@@ -130,4 +132,5 @@ button{
   display: block;
   width: 300px;
   margin: 0px auto;
+}
 }
