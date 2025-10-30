@@ -1,24 +1,80 @@
-
 /* Global*/
 * {
-margin:0;
-padding: 0;}
-
-body{
-background-image: url(https://img.freepik.com/fotos-gratis/tabuas-de-madeira-com-fundo-de-restaurante-desfocado_1253-56.jpg);
-background-repeat: no-repeat center center fixed;
-background-size:cover;
-height: 100%;
-
-
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-image: url(https://img.freepik.com/fotos-gratis/tabuas-de-madeira-com-fundo-de-restaurante-desfocado_1253-56.jpg);
+  background-repeat: no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 header {
-    padding: 32px 0;
-    /*max-width: 300px;
-    border: 2px solid burlywood;
-    margin: 5px auto;*/
-    text-align: center;
+  padding: 32px 0;
+  text-align: center;
 }
-h1{
-    margin-bottom: 0px;
+
+h1 {
+  margin-bottom: 4px;
+  color: rgb(107, 175, 110);
+  font-size: 2.2rem;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  opacity: 0.95;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cardapio {
+  text-align: center;
+  justify-items: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 16px 0;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.03);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.prato {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffd88a;
+}
+
+.descricao {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.preco {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 4px;
 }
